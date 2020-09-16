@@ -1,0 +1,67 @@
+body{
+
+}
+.container{
+    display: inline-block;
+    width: 100%;
+    padding-top: 170px;
+    padding-bottom: 80px;
+    background-color: red;
+
+}
+
+.bg-img{
+    background-image: url(../bck.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+    .row{
+        display: inline-block;
+        text-align: center;
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+        padding: 0 50px;
+
+    }
+        .title{
+            font-size: 38px;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 45px;
+
+        }
+       .row > .clock{
+           margin-bottom: 40px;
+
+        }
+        .row > .par{
+            color: #fff;
+           margin-bottom: 40px;
+        }
+        .btn1{
+            display: inline-block;
+            border-radius: 3px;
+            border: 1px solid #fff;
+            color: #fff;
+            margin-left: 15px;
+        
+        }
+        .first{
+            display: inline-block;
+            float: left;
+            background-color: #d74d6b;
+            padding: 8px 15px;
+            border-radius: 3px;
+            margin-bottom: 30px;
+        }
+        .second{
+            display: inline-block;
+            float: left;
+            padding: 8px 15px;
+            margin: 0px;
+        }
+    
+        .socials{
+
+        }
