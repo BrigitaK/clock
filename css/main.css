@@ -44,7 +44,10 @@ body{
             border-radius: 3px;
             border: 1px solid #fff;
             color: #fff;
+            font-size: 13px;
+            line-height: 15px;
             margin-left: 15px;
+            text-transform: uppercase;
         
         }
         .first{
@@ -62,8 +65,14 @@ body{
             margin: 0px;
         }
     
-       .socials{
+     .row > .socials{
             display: inline-block;
             width: 100%;
             text-align: center;
-           
+            font-size: 15px;
+     }
+     .fa {
+         color: #fff;
+         text-decoration: none;
+         padding: 0 8px;
+     }
